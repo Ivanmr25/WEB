@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+<!-- Cuerpo de la page-->
+<body>
+    <div id="container">
+        <header>
+            <a href="https://www.youtube.com/watch?v=Gi4IQorU7oU"><img src="img/titan.png" alt="html5"></a>
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="parrafos.html"><li>Párrafos</li></a>
+                    <a href="enlaces.html"><li>Enlaces</li></a>
+                    <a href="tablas.html"><li>Tablas</li></a>
+                    <a href="listas.html"><li>Listas</li></a>
+                    <a href="formularios.html"><li>Formularios</li></a>
+                    <a href="multimedia.html"><li>Multimedia</li></a>
+                    <a href="formhtml5.html"><li>Form Html5</li></a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <h1 class="titulos">Tablas</h1>
+                    <h2>Tabla Default</h2>
+                    <table class="table" border="1">  
+                        <thead>
+                            <tr>
+                                <th>Archivo</th>
+                                <th>Editar</th>
+                                <th>Ayuda</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Abrir</td>
+                                <td>Copiar</td>
+                                <td>Acerca de</td>
+                            </tr>
+                            <tr>
+                                <td>Cerrar</td>
+                                <td>Pegar</td>
+                                <td>FAQ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>Tabla con combinaciones de celdas</h2>
+                    <table class="table" border="1">  
+                        <thead>
+                            <tr>
+                                <th colspan="2">Archivo</th>
+                                <td>Editar</td>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Ayuda</th>
+                                <td>Copiar</td>
+                                <td rowspan="2">Acerca de</td>
+                                
+                            </tr>
+                            <tr>
+                                <th>Cerrar</th>
+                                <td>Pegar</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>Tabla filas pares impares</h2>
+                    <table  div id="tcebra" border="1"></div>  
+                        <thead>
+                            <tr>
+                                <th>Archivo</th>
+                                <th>Editar</th>
+                                <th>Ayuda</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Abrir</td>
+                                <td>Copiar</td>
+                                <td>Acerca de</td>
+                            </tr>
+                            <tr>
+                                <td>Cerrar</td>
+                                <td>Pegar</td>
+                                <td>FAQ</td>
+                            </tr>
+                            <tr>
+                                <td>Cerrar</td>
+                                <td>Pegar</td>
+                                <td>FAQ</td>
+                            </tr>
+                            <tr>
+                                <td>Abrir</td>
+                                <td>Copiar</td>
+                                <td>Acerca de</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>Horario</h2>
+                    <table div id="thorario" border="1">  
+                        <thead>
+                       
+                            <tr>
+                                <th colspan="6" class="encabezado">S1DAM</th>
+                            </tr>
+                            <tr>
+                                <th class="hora">/-\</th>
+                                <th class="encabezado">Lunes</th>
+                                <th class="encabezado">Martes</th>
+                                <th class="encabezado">Miercoles</th>
+                                <th class="encabezado">Jueves</th>
+                                <th class="encabezado">Viernes</th>
+                            </tr>
+                       
+                            <tbody>
+                                <tr>
+                                    <td class="hora"> 8:15 - 9:10</td>
+                                    <td rowspan="2" class="Lenguajedemarcas">LMSG-2805299 Puli.Mo,FrJo (1 B-001) LMSG-2804902</td>
+                                    <td rowspan="2" class="Programacion">PROG-28005296 Mart Ca, JoJa (1 B-001) PROG-2804902</td>
+                                    <td class="ingles">ING-2805297 Corr.Pi, JoMa (1 B-001) ING-2804902 </td>
+                                    <td rowspan="2" class="Programacion">PROG-28005296 Mart Ca, JoJa (1 B-001) PROG-2804902</td>
+                                    <td class="Entorno" >ENDE-2805301 Polo Or, Ed (1 B-001) ENDE-2804902</td>
+                                </tr>
+                                <tr>
+                                    <td class="hora">9:10 - 10:05</td>
+                                    <td  class="Entorno">ENDE-2805301 Polo Or, Ed (1 B-001) ENDE-2804902</td>
+                                    <td class="FOL">FOL-2805295 Marin.Ca, RoMa (1 B-001) FOL-2804902</td>
+                                    
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <td class="hora"> 10:05 - 11:00</td>
+                                    <td class="ingles">ING-2805297 Corr.Pi, JoMa (1 B-001) ING-2804902</td>
+                                    <td class="SISI">SISI-2805298 Mart Ru, To (1 B-001) SISI-2804902</td>
+                                    <td class="SISI">SISI-2805298 Mart Ru, To (1 B-001) SISI-2804902</td>
+                                    <td class="Lenguajedemarcas">LMSG-2805299 Puli.Mo,FrJo (1 B-001) LMSG-2804902</td>
+                                    <td class="base">BDD-2805300 Bern. Be, Cr (1 B-001) BDD-2804902</td>
+
+
+
+                                </tr>
+                                <tr>
+            
+                                    <td colspan="6" class="encabezado">Recreo</td>
+                                </tr>
+                                <tr>
+                                    <td class="hora">11:30 - 12:25</td>
+                                    <td class="FOL">FOL-2805295 Marin.Ca, RoMa (1 B-001) FOL-2804902</td>
+                                    <td class="SISI">SISI-2805298 Mart Ru, To (1 B-001) SISI-2804902</td>
+                                    <td class="SISI">SISI-2805298 Mart Ru, To (1 B-001) SISI-2804902</td>
+                                    <td class="Lenguajedemarcas">LMSG-2805299 Puli.Mo,FrJo (1 B-001) LMSG-2804902</td>
+                                    <td class="base">BDD-2805300 Bern. Be, Cr (1 B-001) BDD-2804902</td>
+                                </tr>
+                                <tr>
+                                    <td class="hora">12:25 - 13:20</td>
+                                    <td class="Programacion" rowspan="2">PROG-28005296 Mart Ca, JoJa (1 B-001) PROG-2804902</td>
+                                    <td class="Entorno">ENDE-2805301 Polo Or, Ed (1 B-001) ENDE-2804902</td>
+                                    <td rowspan="2" class="base">BDD-2805300 Bern. Be, Cr (1 B-001) BDD-2804902</td>
+                                    <td rowspan="2" class="base">BDD-2805300 Bern. Be, Cr (1 B-001) BDD-2804902</td>
+                                    <td rowspan="2" class="SISI">SISI-2805298 Mart Ru, To (1 B-001) SISI-2804902</td>
+                                </tr>
+                                <tr>
+                                    <td class="hora"> 13:20 - 14:15</td>
+                                    <td  class="FOL">FOL-2805295 Marin.Ca, RoMa (1 B-001) FOL-2804902</td>
+                                </tr>
+                            </tbody>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            Desinged by Iván Mulero&copy; 
+        </footer>
+    </div>
+</body>
+</html>

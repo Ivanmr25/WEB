@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #E0FEFE;
+}
+header {
+    background-color: #B32327  ;
+    padding: 16px;
+}
+header img {
+    width: 100%;
+}
+#principal {
+    background-color:   #B32327;;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+    background-color:#B32327 ;
+    font-style: italic;
+}
+footer {
+    background-color:#B32327;
+    color: #E0FEFE;
+    text-align: center;
+    font-size: 30px;
+    padding:6px;
+    font-style: oblique;
+    font-weight: 5px;
+    outline-style:hidden;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin:  10px;
+    color: #E0FEFE;
+    border: inherit 1px #E0FEFE;
+    border-radius: 10px;
+    border-style:double;
+    font-style: italic;
+    outline-style: groove;
+    outline-color: #E0FEFE;
+}
+nav li:hover{
+    background-color: #B32327;
+    color: #E0FEFE;
+}
+.azulo{
+    color: rgb(22, 144, 148);
+}
+a{
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+}
+.titulos{
+    text-align: center;
+    color: #E0FEFE;
+}
+.etiqueta{
+    text-align: start;
+    font-size: 20px;
+}
+.destacado{
+    color: #E0FEFE;
+}
+#enlaces a{
+    color: rgb(10, 59, 133);
+
+}
+.text-right{
+    text-align: right;
+}
+#tablas table{
+    font-size: 22px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(7, 16, 54);
+    color: rgb(24, 109, 189);
+}
+#tablas{
+    text-align: center;
+}
+#tcebra tr:nth-child(even) td{
+    background-color: rgb(214, 126, 120);
+}
+#tcebra tr:nth-child(odd) td{
+    background-color: rgb(100, 120, 163);
+}
+#tablas #thorario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.Lenguajedemarcas{
+    background-color: #01B95C;
+    color: black;
+    width: 10;
+}
+.encabezado{
+    background-color: #F0F0F0;
+    color: #008080;
+    width: 10;
+}
+.Programacion{
+    background-color: #80FFFF;
+    color: black;
+    width: 10;
+}
+.ingles{
+    background-color: #80FF81;
+    color: black;
+    width: 10;
+}
+.FOL{
+    background-color: #F0F0C8;
+    color: black;
+    width: 10;
+}
+.SISI{
+    background-color: #FF8002;
+    color: black;
+    width: 10;
+}
+.Entorno{
+    background-color: #8080C0;
+    color: black;
+    width: 10;
+}
+.base{
+    background-color: #64AA96;
+    color: black;
+    width: 10;
+}
+.hora{
+    background-color: #F0F0F0;
+    color: #008080;
+    margin: 0 auto;
+    width: 10;
+
+}
+.black{
+    color: black;
+}
+.customo li{
+    list-style: lower-latin;
+}
+.customo li li{
+    list-style: upper-latin;
+}
+.customo li li li{
+    list-style:decimal-leading-zero;
+}
+.customu li{
+    list-style: square;
+    list-style-image: url(../img/unnamed\ \(1\).png);
+}
+.customu li li{
+    list-style:disc;
+}
+.customu li li li{
+    list-style:georgian;
+}
+.rojo{
+    color:rebeccapurple;
+}
+#multimedia {
+    text-align: center;
+}
+#formv{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-style: groove;
+}
+.Multiple{
+    border-style: groove;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: inherit 10px;
+    padding: 8px;
+    border-top: groove;
+    border-bottom: groove;
+}
+#Formm{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+    border: solid  #B32327;
+    display: block;
+    border-radius: 10px;
+    border: groove;
+    
+}
+.formu{
+    text-align: center;
+    font-size: 30px;
+    color: tomato;  
+    border: groove;
+    border-top: groove;
+    border-bottom: groove;
+    background-color:   #B32327;
+}
