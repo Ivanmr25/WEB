@@ -234,3 +234,10 @@ a{
     border-bottom: groove;
     background-color:   #B32327;
 }
+#field{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0 auto;
+    border: groove;
+    font-size: large;
+}
