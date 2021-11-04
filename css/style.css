@@ -170,9 +170,6 @@ a{
     width: 10;
 
 }
-.black{
-    color: black;
-}
 .customo li{
     list-style: lower-latin;
 }
@@ -192,9 +189,6 @@ a{
 .customu li li li{
     list-style:georgian;
 }
-.rojo{
-    color:rebeccapurple;
-}
 #multimedia {
     text-align: center;
 }
@@ -206,12 +200,12 @@ a{
 }
 .Multiple{
     border-style: groove;
-    width: 60%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
     border-radius: 20px;
-    border: inherit 10px;
-    padding: 8px;
+    border: inherit 20px;
+    padding: 10px;
     border-top: groove;
     border-bottom: groove;
 }
@@ -240,8 +234,9 @@ a{
     border-radius: 0 auto;
     border: groove;
     font-size: large;
-<<<<<<< HEAD
 }
-=======
+#hr{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
->>>>>>> 207ff7720e82ed0598bf4f1759d1995d826a0a68
